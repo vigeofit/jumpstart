@@ -367,6 +367,11 @@
   "resolved" "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+"better-file-downloader@^1.0.6":
+  "integrity" "sha512-1naaZt3IQkZHfs0OnTWlWUGKv2L1/F+1oy+ab7zcx2wKbR6e4307A1uGEjq33sv5SVpkua0Un8kbsgla5Y491w=="
+  "resolved" "https://registry.npmjs.org/better-file-downloader/-/better-file-downloader-1.0.6.tgz"
+  "version" "1.0.6"
+
 "brace-expansion@^1.1.7":
   "integrity" "sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA=="
   "resolved" "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
@@ -1467,7 +1472,7 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   "version" "1.2.1"
 
-"prop-types@^15.8.1":
+"prop-types@^15.5.9", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -1486,13 +1491,18 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16.8.0", "react-dom@18.2.0":
+"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>= 16.3", "react-dom@>=16.8.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
+
+"react-frame-component@^5.2.3":
+  "integrity" "sha512-r+h0o3r/uqOLNT724z4CRVkxQouKJvoi3OPfjqWACD30Y87rtEmeJrNZf1WYPGknn1Y8200HAjx7hY/dPUGgmA=="
+  "resolved" "https://registry.npmjs.org/react-frame-component/-/react-frame-component-5.2.3.tgz"
+  "version" "5.2.3"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
@@ -1509,7 +1519,7 @@
   "resolved" "https://registry.npmjs.org/react-ssr-prepass/-/react-ssr-prepass-1.5.0.tgz"
   "version" "1.5.0"
 
-"react@^16.11.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8.0", "react@18.2.0":
+"react@^16.11.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.3", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

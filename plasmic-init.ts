@@ -2,6 +2,8 @@ import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 
 import { HelloWorld } from './components/HelloWorld';
 
+import { Embed } from "./components/Embed";
+
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -33,3 +35,10 @@ PLASMIC.registerComponent(HelloWorld, {
     children: 'slot'
   }
 });
+
+PLASMIC.registerComponent(Embed, {
+   name: "Embed",
+   props: {
+     code: "string",
+     },
+   });
